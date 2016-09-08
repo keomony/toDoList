@@ -1,0 +1,40 @@
+
+html {
+  font-family: Work Sans, sans-serif, verdana;
+  font-size: 15px;
+  background-color: #cce6ff;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+div#page{
+
+}
+
+div#header {
+  height: 50px;
+  border-bottom-width: 5px;
+}
+
+div#body {
+  height: 65%;
+  line-height: 25px;
+}
+
+div#footer {
+  height: 50px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li{
+  
+}
+
+input {
+  height: 20px;
+}
