@@ -31,8 +31,11 @@ ul {
   list-style-type: none;
 }
 
-li{
-  
+div#body ul li:first-child{
+  //TODO: add border
+}
+div#body ul li {
+  //TODO: add border
 }
 
 input {

@@ -16,7 +16,7 @@ limitations under the License.
 // Insert your service worker code here
 self.addEventListener('install', function(event) {
   event.waitUntil(
-      caches.open('static-cache-v2')
+      caches.open('static-cache-v1')
         .then(function(cache) {
           return cache.addAll([
             '/',
@@ -28,7 +28,7 @@ self.addEventListener('install', function(event) {
     );
 });
 
-// TODO - add the fetch event listener here
+// add the fetch event listener here
 self.addEventListener('fetch', function(event) {
   event.respondWith(caches.match(event.request)
   .then(function(response) {
